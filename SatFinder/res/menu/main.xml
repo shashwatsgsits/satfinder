@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- 
+     <item
+        android:id="@+id/action_search"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search"
+        
+        android:title="@string/action_search"
+          /> -->
+
+    <!--  <item android:id="@+id/action_search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="Search"
+          android:showAsAction="ifRoom|withText|collapseActionView"
+          android:actionViewClass="android.widget.SearchView"
+          android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"
+       	 android:voiceLanguageModel="web_search"
+       	 android:enabled="true"
+       	 
+       	 
+	/> -->
+     
+     <item
+          android:id="@+id/location"
+          android:icon="@android:drawable/ic_menu_mylocation"
+          android:orderInCategory="1"
+          android:title="My Location"
+          android:showAsAction="always" />
+     
+    <!-- Refresh -->
+    <item android:id="@+id/tools"
+          android:icon="@android:drawable/ic_menu_manage"
+          android:orderInCategory="2"
+          android:title="Tools"
+          android:showAsAction="ifRoom" />
+     
+    <!-- Help -->
+    <item android:id="@+id/mapmode"
+          android:icon="@android:drawable/ic_dialog_map"
+          android:orderInCategory="3"
+          android:title="Map Mode"
+          android:showAsAction="always">
+          
+          <menu >
+            
+            <item
+                android:id="@+id/type1"
+                android:showAsAction="never"
+        		android:title="Normal"
+                />
+            <item
+            	android:id="@+id/type2"
+            	android:showAsAction="never"
+        		android:title="Hybrid"/>
+             <item
+                android:id="@+id/type3"
+                android:showAsAction="never"
+        		android:title="Satellite"
+                />
+              <item
+                android:id="@+id/type4"
+                android:showAsAction="never"
+        		android:title="Terrain"
+                />
+            
+        </menu>
+          </item>
+     
+    <!-- Check updates -->
+    <item android:id="@+id/action_check_updates"
+          android:icon="@android:drawable/ic_menu_edit"
+          android:orderInCategory="4"
+          android:title="Area Of Interest"
+          android:showAsAction="always" />
+     
+     
+      
+</menu>

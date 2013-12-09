@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+<fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" >
+   
+   <!--  <SearchView
+       	android:id="@+id/searchView"
+       	android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"
+        android:voiceLanguageModel="web_search"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+		android:focusable="false"       	
+		android:background="@drawable/round"  
+		></SearchView> 
+        </fragment>
+
+	<include
+	     layout="@layout/bottom"
+	     android:layout_alignParentBottom="true"/> -->
+	     </fragment>
+</RelativeLayout>
